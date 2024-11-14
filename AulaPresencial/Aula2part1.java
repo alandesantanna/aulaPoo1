@@ -1,4 +1,4 @@
-package PrimeiraAulaPresencial;
+package AulaPresencial;
 import java.util.Scanner;
 
 public class Aula2part1 {
