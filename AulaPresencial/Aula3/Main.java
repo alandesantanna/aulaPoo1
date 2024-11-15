@@ -11,12 +11,8 @@ public class Main {
     pendrive1.setProfundidade(3.5f);
     pendrive1.setPeso(2.3f);
     pendrive1.setPreco(24.99f);
-    pendrive1.toString();
 
-    
-    Pendrive pendrive2 = new Pendrive();
-
-        
+    System.out.println(pendrive1.toString());
 
     }
 }

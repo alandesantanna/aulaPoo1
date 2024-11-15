@@ -1,13 +1,13 @@
 package AulaPresencial.Aula3;
 
 public class Pendrive {
-    private String marca;
-    private int capacidade;
-    private float comprimento;
-    private float largura;
-    private float profundidade;
-    private float peso;
-    private float preco;
+    String marca;
+    int capacidade;
+    float comprimento;
+    float largura;
+    float profundidade;
+    float peso;
+    float preco;
 
     public String getMarca() {
         return marca;
@@ -51,15 +51,11 @@ public class Pendrive {
     public void setPreco(float preco) {
         this.preco = preco;
     }
-    
+
     @Override
     public String toString() {
-        return "Pendrive [getMarca()=" + getMarca() + ", getCapacidade()=" + getCapacidade() + ", getComprimento()="
-                + getComprimento() + ", getLargura()=" + getLargura() + ", getProfundidade()=" + getProfundidade()
-                + ", getPeso()=" + getPeso() + ", getPreco()=" + getPreco() + "]";
+        return "Pendrive [marca=" + marca + ", capacidade=" + capacidade + ", comprimento=" + comprimento + ", largura="
+                + largura + ", profundidade=" + profundidade + ", peso=" + peso + ", preco=" + preco + "]";
     }
-
     
-    
-
 }
