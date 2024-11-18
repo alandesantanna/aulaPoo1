@@ -9,6 +9,43 @@ public class Pendrive {
     float peso;
     float preco;
 
+    public Pendrive(){   
+    }
+
+    public Pendrive(String m, int c, float com, float lar, float pro, float pe, float pr){
+        this.marca = m;
+        this.capacidade = c;
+        this.comprimento = com;
+        this.largura = lar;
+        this.profundidade = pro;
+        this.peso = pe;
+        this.preco = pr;
+    }
+
+    public Pendrive(String m, int c, float com, float lar, float pro, float pe){
+        this.marca = m;
+        this.capacidade = c;
+        this.comprimento = com;
+        this.largura = lar;
+        this.profundidade = pro;
+        this.peso = pe;
+    }
+
+    public Pendrive(String m, int c, float com, float lar, float pro){
+        this.marca = m;
+        this.capacidade = c;
+        this.comprimento = com;
+        this.largura = lar;
+        this.profundidade = pro;
+    }
+
+    public Pendrive(String m, int c, float com, float lar){
+        this.marca = m;
+        this.capacidade = c;
+        this.comprimento = com;
+        this.largura = lar;
+    }
+
     public String getMarca() {
         return marca;
     }
@@ -21,6 +58,11 @@ public class Pendrive {
     public void setCapacidade(int capacidade) {
         this.capacidade = capacidade;
     }
+
+    public void setCapacidade(float capacidade){
+        this.capacidade = (int) capacidade;
+    }
+
     public float getComprimento() {
         return comprimento;
     }
