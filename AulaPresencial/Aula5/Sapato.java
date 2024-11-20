@@ -15,7 +15,7 @@ public class Sapato extends Calcado {
     public void setModelo(String modelo) {
         this.modelo = modelo;
     }
-
+    
     @Override
     public void imprimir() {
         super.imprimir();
