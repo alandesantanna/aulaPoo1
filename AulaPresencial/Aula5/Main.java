@@ -6,7 +6,6 @@ public class Main {
         Tenis tenis1 = new Tenis("Nike", 299.99, "Preto", 42, true, true);
         Sapato sapato1 = new Sapato("Oxford", 199.99, "Marrom", 41, "Formal");
 
-        // Imprimir informações
         System.out.println("Chinelo:");
         chinelo1.imprimir();
         System.out.println("\nTênis:");
