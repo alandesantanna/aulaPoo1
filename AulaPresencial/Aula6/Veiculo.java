@@ -59,6 +59,12 @@ public abstract class Veiculo implements VeiculoSeguro{
     public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    public void desconto(double porcentagem){
+        double valordsct;
+        valordsct = getPreco() - (getPreco() * porcentagem / 100);
+        System.out.println("o valor do desconto é: " + valordsct);
+    }
     
     @Override
     public void acelerar(){
