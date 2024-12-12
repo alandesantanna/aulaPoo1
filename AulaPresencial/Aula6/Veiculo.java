@@ -60,6 +60,15 @@ public abstract class Veiculo implements VeiculoSeguro{
         this.placa = placa;
     }
 
+    public void imprimir() {
+        System.out.println("Marca: " + marca);
+        System.out.println("Placa: " + placa);
+        System.out.println("Preço: R$" + preco);
+        System.out.println("Número de Passageiros: " + numPassageiro);
+        System.out.println("Idade Mínima do Motorista: " + idadeMinima);
+        motor.imprimir();
+    }
+
     public void desconto(double porcentagem){
         double valordsct;
         valordsct = getPreco() - (getPreco() * porcentagem / 100);
