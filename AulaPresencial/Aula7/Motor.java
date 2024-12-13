@@ -1,4 +1,5 @@
-package AulaPresencial.Aula6;
+package AulaPresencial.Aula7;
+
 public class Motor {
     private int potencia;
     private int rpm;
@@ -40,4 +41,6 @@ public class Motor {
         this.rpm = rpm;
         this.tipoCombustivel = tipoCombustivel;
     }
+    
+
 }
